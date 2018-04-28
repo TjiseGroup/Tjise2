@@ -5,7 +5,7 @@ import drink from '@/components/drink'
 import frutist from '@/components/frutist'
 import list from '@/components/list'
 import login from '@/components/login'
-import sweet from '@/components/sweet'
+import dessert from '@/components/dessert'
 
 Vue.use(Router)
 
@@ -37,9 +37,9 @@ export default new Router({
       component: login
     },
     {
-      path: '/sweet',
-      name: 'sweet',
-      component: sweet
+      path: '/dessert',
+      name: 'dessert',
+      component: dessert
     }
   ]
 })
