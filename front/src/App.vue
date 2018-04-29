@@ -26,23 +26,25 @@ export default {
   name: "App",
   data() {
     return {
-      imgs: ["fruits.jpg", "dessert.jpg", "drink.jpg", "bread.png", "list.jpg"],
+      imgs: ["frutist.jpg", "dessert.jpg", "drink.jpg", "bread.png", "list.jpg"],
       isLogin: false,
-      el: null
+      el: null,
+      showView: false
     };
   },
   watch: {
+    //监控路由
     $route(to, from) {
       if (!to.name) {
-        this.showView = false;
+        this.showView = false;  //关闭详情
         let el = document.getElementById(from.name);
-        el.classList.add("restart");
+        el.classList.add("restart");  //重置动画
         setTimeout(() => {
           el.classList.remove("restart");
           for (let val of this.el) {
-            val.classList.remove("open", "close");
+            val.classList.remove("open", "close");  //删除无用class
           }
-        }, 1000);
+        }, 800);
       }
     }
   },
@@ -57,8 +59,14 @@ export default {
       this.$router.push({ name: path });
     }
   },
+  //路由重定向
+  beforeMount() {
+    this.$route.name?this.$router.push({ path: '/' }):''
+  },
+  //初始化俩参数
   mounted() {
     this.el = document.getElementsByClassName("list");
+    this.showView = !!this.$route.name
   }
 };
 </script>
