@@ -127,7 +127,7 @@ body {
   position: absolute;
   list-style: none;
   cursor: pointer;
-  width: 18%;
+  width: 21%;
   height: 100%;
   padding: 0 1%;
   box-sizing: border-box;
@@ -244,17 +244,17 @@ body {
     width: 92vw;
   }
   to {
-    width: 18%;
+    width: 21%;
   }
 }
 @keyframes open {
   30% {
     left: 0;
-    width: 18%;
+    width: 21%;
   }
   40% {
     left: 0;
-    width: 18%;
+    width: 21%;
   }
   to {
     left: 0;
