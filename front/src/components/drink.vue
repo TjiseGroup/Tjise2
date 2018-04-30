@@ -9,29 +9,29 @@
 			</el-carousel>
 		</div>
 		<div class="drink_startext">
-			<br/><p>明星产品</p><br />
+			<br/>
+			<p>明星产品</p><br />
 		</div>
 		<div class="drink_starTextAllImg">
-			<!--<div class="drink_starTextImg1">-->
-			<img src="../../static/img/a0fc5afaly1fpj4sqd07nj20c20azqbk.jpg" width="550px" height="360px" class="drink_starTextImg1"/>
-			<!--</div>
-			<div class="drink_starTextImg2">-->
-			<img src="../../static/img/2.jpg" width="550px" height="360px" class="drink_starTextImg2"/>
-			<!--</div>-->
+
+			<a href="#"><img src="../../static/img/a0fc5afaly1fpj4sqd07nj20c20azqbk.jpg" width="550px" height="360px" class="drink_starTextImg1" /></a>
+
+			<a href="#"><img src="../../static/img/2.jpg" width="550px" height="360px" class="drink_starTextImg2" /></a>
+
 		</div>
 		<div class="drink_startext">
 			<p>系列产品</p><br />
 		</div>
 		<div class="drink_setAllImg">
-			<img src="../../static/img/3.jpg" width="260" height="280" class="drink_setImg1"/><div class="div111"></div>
-			<img src="../../static/img/6.jpg" width="260" height="280" class="drink_setImg2"/>
-			<img src="../../static/img/7.jpg" width="260" height="280" class="drink_setImg3"/>
-			<img src="../../static/img/5.jpg" width="260" height="280" class="drink_setImg4"/>
+			<img src="../../static/img/3.jpg" width="260" height="280" class="drink_setImg1" />
+			<img src="../../static/img/6.jpg" width="260" height="280" class="drink_setImg2" />
+			<img src="../../static/img/7.jpg" width="260" height="280" class="drink_setImg3" />
+			<img src="../../static/img/5.jpg" width="260" height="280" class="drink_setImg4" />
 		</div>
 		<br /><br /><br /><br /><br /><br />
-		<div >
-			<p class="drink_ProductText" >aa</p>
-			<p class="drink_ProductText2">bb</p>			
+		<div>
+			<p class="drink_ProductText">aa</p>
+			<p class="drink_ProductText2">bb</p>
 		</div>
 	</div>
 </template>
@@ -54,11 +54,12 @@
     line-height: 300px;
     margin: 0;
   }*/
- .drink_all{
- 	color: white;
- }
- 
-	.drink_engine{
+	
+	.drink_all {
+		color: white;
+	}
+	
+	.drink_engine {
 		width: 1200px;
 		margin: 0 auto;
 	}
@@ -70,95 +71,79 @@
 	.el-carousel__item:nth-of-type(2) {
 		background-image: url(../../static/img/dessert.jpg);
 	}
+	
 	.el-carousel__item:nth-of-type(3) {
 		background-image: url(../../static/img/bread.png);
 	}
+	
 	.el-carousel__item:nth-of-type(4) {
 		background-image: url(../../static/img/dessert.jpg);
 	}
 	
-	.drink_startext{
+	.drink_startext {
 		text-align: center;
 		font-size: 28px;
 		font-family: "Hiragino Sans GB";
 	}
 	
-	.drink_starTextAllImg{
+	.drink_starTextAllImg {
 		text-align: center;
 		font-size: 300px;
+		overflow: hidden;
 	}
 	
-	/*.drink_starTextImg1{
-		z-index: 1;
+	.drink_starTextImg1 {
+		cursor: pointer;
+		transition: all 0.6s;
 	}
 	
-	.drink_starTextImg1:hover{
-		display: block;
-		box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-		transform: translate3d(0,-5px,0);
-		z-index: 2;
-	}*/
+	.drink_starTextImg1:hover {
+		transform: scale(1.2);
+	}
 	
-	.drink_setAllImg{
+	.drink_starTextImg2 {
+		cursor: pointer;
+		transition: all 0.6s;
+	}
+	
+	.drink_starTextImg2:hover {
+		transform: scale(1.2);
+	}
+	
+	.drink_setAllImg {
 		padding-left: 100px;
 	}
 	
-	.drink_setImg1{
+	.drink_setImg1 {
 		margin-right: 43px;
-		z-index: 1;
+		cursor: pointer;
+		transition: all 0.6s;
 	}
 	
-	.div111{
-	width: 600px;
-	height: 460px;
-	background-color: white;
-	border: 1px solid grey;
-	position: absolute;
-	top:0px;
-	left: 234px;
-	display: none;
-	}
-	
-.drink_setImg1:hover .div111{
-	display: block;
-}
-	
-	/*.drink_setImg1:hover{
-		display: block;
-		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-		transform: translate3d(0,-5px,0);
-		z-index: 2;
-	}*/
-	
-	
-	.drink_setImg2{
-		margin-right: 43px;
-		/*box-shadow: 0 15px 30px rgba(0,0,0,0.1);*/
-	}
-	
-	
-	.drink_setImg3{
+	.drink_setImg2 {
 		margin-right: 43px;
 	}
 	
-	
-	.drink_setImg4{
+	.drink_setImg3 {
 		margin-right: 43px;
 	}
 	
+	.drink_setImg4 {
+		margin-right: 43px;
+	}
 	
-	
-	.drink_ProductText{
+	.drink_ProductText {
 		background-color: white;
 		width: 520px;
 		height: 360px;
-      margin-left: 100px;
+		margin-left: 100px;
 	}
-	.drink_ProductText2{
+	
+	.drink_ProductText2 {
 		background-color: white;
 		width: 520px;
 		height: 360px;
-      margin-left: 765px;
-      margin-top: -375px;
+		margin-left: 765px;
+		margin-top: -375px;
 	}
 </style>
