@@ -11,25 +11,28 @@
 		<div class="drink_startext">
 			<br/><p>明星产品</p><br />
 		</div>
-		<div>
-			<img src="../../static/img/a0fc5afaly1fpj4sqd07nj20c20azqbk.jpg" width="480px" height="360px" class="drink_StarImg"/>
-			<img src="../../static/img/2.jpg" width="480px" height="360px" class="drink_StarImg"/>
+		<div class="drink_starTextAllImg">
+			<!--<div class="drink_starTextImg1">-->
+			<img src="../../static/img/a0fc5afaly1fpj4sqd07nj20c20azqbk.jpg" width="550px" height="360px" class="drink_starTextImg1"/>
+			<!--</div>
+			<div class="drink_starTextImg2">-->
+			<img src="../../static/img/2.jpg" width="550px" height="360px" class="drink_starTextImg2"/>
+			<!--</div>-->
 		</div>
 		<div class="drink_startext">
-			<br/><p>系列产品</p><br />
+			<p>系列产品</p><br />
 		</div>
-		<div class="drink_xilieImg">
-			<img src="../../static/img/3.jpg" width="260" height="280" class="a1"/>
-			<img src="../../static/img/6.jpg" width="260" height="280" class="a2"/>
-			<img src="../../static/img/7.jpg" width="260" height="280" class="a3"/>
-			<img src="../../static/img/5.jpg" width="260" height="280" class="a4"/>
+		<div class="drink_setAllImg">
+			<img src="../../static/img/3.jpg" width="260" height="280" class="drink_setImg1"/><div class="div111"></div>
+			<img src="../../static/img/6.jpg" width="260" height="280" class="drink_setImg2"/>
+			<img src="../../static/img/7.jpg" width="260" height="280" class="drink_setImg3"/>
+			<img src="../../static/img/5.jpg" width="260" height="280" class="drink_setImg4"/>
 		</div>
 		<br /><br /><br /><br /><br /><br />
 		<div >
 			<p class="drink_ProductText" >aa</p>
-			<p class="drink_ProductText2">bb</p>
+			<p class="drink_ProductText2">bb</p>			
 		</div>
-		
 	</div>
 </template>
 
@@ -61,7 +64,7 @@
 	}
 	
 	.el-carousel__item:nth-of-type(1) {
-		background-image: url(../../static/img/fruits.jpg);
+		background-image: url(../../static/img/frutist.jpg);
 	}
 	
 	.el-carousel__item:nth-of-type(2) {
@@ -80,27 +83,66 @@
 		font-family: "Hiragino Sans GB";
 	}
 	
-	.drink_StarImg{
-		padding-left: 180px;
+	.drink_starTextAllImg{
+		text-align: center;
+		font-size: 300px;
 	}
 	
-	.drink_xilieImg{
-		padding-left: 180px;
+	/*.drink_starTextImg1{
+		z-index: 1;
 	}
 	
-	.a1{
+	.drink_starTextImg1:hover{
+		display: block;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+		transform: translate3d(0,-5px,0);
+		z-index: 2;
+	}*/
+	
+	.drink_setAllImg{
+		padding-left: 100px;
+	}
+	
+	.drink_setImg1{
+		margin-right: 43px;
+		z-index: 1;
+	}
+	
+	.div111{
+	width: 600px;
+	height: 460px;
+	background-color: white;
+	border: 1px solid grey;
+	position: absolute;
+	top:0px;
+	left: 234px;
+	display: none;
+	}
+	
+.drink_setImg1:hover .div111{
+	display: block;
+}
+	
+	/*.drink_setImg1:hover{
+		display: block;
+		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+		transform: translate3d(0,-5px,0);
+		z-index: 2;
+	}*/
+	
+	
+	.drink_setImg2{
+		margin-right: 43px;
+		/*box-shadow: 0 15px 30px rgba(0,0,0,0.1);*/
+	}
+	
+	
+	.drink_setImg3{
 		margin-right: 43px;
 	}
 	
-	.a2{
-		margin-right: 43px;
-	}
 	
-	.a3{
-		margin-right: 43px;
-	}
-	
-	.a4{
+	.drink_setImg4{
 		margin-right: 43px;
 	}
 	
@@ -110,13 +152,13 @@
 		background-color: white;
 		width: 520px;
 		height: 360px;
-      margin-left: 180px;
+      margin-left: 100px;
 	}
 	.drink_ProductText2{
 		background-color: white;
 		width: 520px;
 		height: 360px;
-      margin-left: 850px;
+      margin-left: 765px;
       margin-top: -375px;
 	}
 </style>
