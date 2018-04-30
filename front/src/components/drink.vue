@@ -10,7 +10,7 @@
 		</div>
 		<div class="drink_startext">
 			<br/>
-			<p>明星产品</p><br />
+			<p>Forever Love</p><br />
 		</div>
 		<div class="drink_starTextAllImg">
 
@@ -20,22 +20,26 @@
 
 		</div>
 		<div class="drink_startext">
-			<p>系列产品</p><br />
+			<p>人海茫茫，总有一款让你心动</p><br />
 		</div>
 		<div class="drink_setAllImg">
 			<img src="../../static/img/3.jpg" width="260" height="280" class="drink_setImg1" />
-			<span class="drink_setHoverImg1">aaa<br/>aaaaaaaaaaaaaaaaaaaaa<br/>aaa</span> 
+			<span class="drink_setHoverImg1">aaa<br/>aaaaaaaaaaaaaaaaaaaaa<br/>aaa</span>
 			<img src="../../static/img/6.jpg" width="260" height="280" class="drink_setImg2" />
-			<span class="drink_setHoverImg2">bbb<br/>bbbbbbbbbbbbbbbbbbb<br/>bbb</span> 
+			<span class="drink_setHoverImg2">bbb<br/>bbbbbbbbbbbbbbbbbbb<br/>bbb</span>
 			<img src="../../static/img/7.jpg" width="260" height="280" class="drink_setImg3" />
-			<span class="drink_setHoverImg3">ccc<br/>cccccccccccc<br/>ccc</span> 
+			<span class="drink_setHoverImg3">ccc<br/>cccccccccccc<br/>ccc</span>
 			<img src="../../static/img/5.jpg" width="260" height="280" class="drink_setImg4" />
-			<span class="drink_setHoverImg4">ddd<br/>ddddddddddddd<br/>ddd</span> 
+			<span class="drink_setHoverImg4">ddd<br/>ddddddddddddd<br/>ddd</span>
 		</div>
 		<br /><br /><br /><br /><br /><br />
 		<div>
-			<p class="drink_ProductText">aa</p>
-			<p class="drink_ProductText2">bb</p>
+			<p class="drink_ProductText"><i class="el-icon-service"></i>&nbsp;&nbsp;&nbsp;XX物语<br/><br/><br />
+			用随和淡然的态度，过随遇而安的生活。<br/><br/>不慌不忙地坚强，安安静静地强大。
+			</p>
+			<p class="drink_ProductText2"><i class="el-icon-edit-outline"></i>&nbsp;&nbsp;&nbsp;联系我们<br/><br/><br />
+			邮箱：xxxxx@163.com<br/><br/>地址：天津市西青区宾水西道399号天津市大学软件学院
+			</p>
 		</div>
 	</div>
 </template>
@@ -120,105 +124,101 @@
 		/*display: inline-block;*/
 	}
 	
-	
-	
-	
-	
 	.drink_setImg1 {
 		margin-right: 43px;
 		cursor: pointer;
 		transition: all 0.6s;
 	}
 	
-	.drink_setHoverImg1{
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left:100px;
-	right:0;
-	background: rgba(0,0,0,.5);
-	display: none;
-	z-index: 2;
-	width: 260px;
-	height: 280px;
+	.drink_setHoverImg1 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 100px;
+		right: 0;
+		background: rgba(0, 0, 0, .5);
+		display: none;
+		z-index: 2;
+		width: 260px;
+		height: 280px;
 	}
 	
-	.drink_setImg1:hover +.drink_setHoverImg1{
-	z-index: 3;
-	display: block;
-	} 
+	.drink_setImg1:hover+.drink_setHoverImg1 {
+		z-index: 3;
+		display: block;
+	}
 	
 	.drink_setImg2 {
 		margin-right: 43px;
 	}
 	
-	
-	.drink_setHoverImg2{
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left:407px;
-	right:0;
-	background: rgba(0,0,0,.5);
-	display: none;
-	z-index: 2;
-	width: 260px;
-	height: 280px;
+	.drink_setHoverImg2 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 407px;
+		right: 0;
+		background: rgba(0, 0, 0, .5);
+		display: none;
+		z-index: 2;
+		width: 260px;
+		height: 280px;
 	}
 	
-	.drink_setImg2:hover +.drink_setHoverImg2{
-	z-index: 3;
-	display: block;
-	} 
+	.drink_setImg2:hover+.drink_setHoverImg2 {
+		z-index: 3;
+		display: block;
+	}
 	
 	.drink_setImg3 {
 		margin-right: 43px;
 	}
 	
-	.drink_setHoverImg3{
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left:715px;
-	right:0;
-	background: rgba(0,0,0,.5);
-	display: none;
-	z-index: 2;
-	width: 260px;
-	height: 280px;
+	.drink_setHoverImg3 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 715px;
+		right: 0;
+		background: rgba(0, 0, 0, .5);
+		display: none;
+		z-index: 2;
+		width: 260px;
+		height: 280px;
 	}
 	
-	.drink_setImg3:hover +.drink_setHoverImg3{
-	z-index: 3;
-	display: block;
-	} 
-	
+	.drink_setImg3:hover+.drink_setHoverImg3 {
+		z-index: 3;
+		display: block;
+	}
 	
 	.drink_setImg4 {
 		margin-right: 43px;
 	}
 	
-	
-	.drink_setHoverImg4{
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left:1023px;
-	right:0;
-	background: rgba(0,0,0,.5);
-	display: none;
-	z-index: 2;
-	width: 260px;
-	height: 280px;
+	.drink_setHoverImg4 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 1023px;
+		right: 0;
+		background: rgba(0, 0, 0, .5);
+		display: none;
+		z-index: 2;
+		width: 260px;
+		height: 280px;
 	}
 	
-	.drink_setImg4:hover +.drink_setHoverImg4{
-	z-index: 3;
-	display: block;
-	} 
+	.drink_setImg4:hover+.drink_setHoverImg4 {
+		z-index: 3;
+		display: block;
+	}
 	
 	.drink_ProductText {
-		background-color: white;
+		background-color: #FFBB66;
+		text-align: center;
+		font-size: 28px;
+		font-family: "Hiragino Sans GB";
 		width: 520px;
 		height: 360px;
 		margin-left: 100px;
@@ -226,10 +226,13 @@
 	}
 	
 	.drink_ProductText2 {
-		background-color: white;
+		background-color: #CCBBFF;
+		text-align: center;
+		font-size: 28px;
+		font-family: "Hiragino Sans GB";
 		width: 520px;
 		height: 360px;
 		margin-left: 765px;
-		margin-top: -375px;
+		margin-top: -390px;
 	}
 </style>
