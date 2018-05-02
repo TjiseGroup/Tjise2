@@ -4,7 +4,7 @@
 
 		<div class="div1_start">
 			<br/>
-			<p>最新产品</p><br />
+			<p><b>最新产品</b></p><br />
 		</div>
 		<div class="div1_big">
 
@@ -65,6 +65,8 @@ margin-top: 10%;
 .div1_start{
 		text-align: center;
 		font-size: 28px;
+		color: black;
+		
 	}
 		.div1_starTextImg1 {
 		cursor: pointer;
