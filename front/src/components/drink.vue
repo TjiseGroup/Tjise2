@@ -1,7 +1,7 @@
 <template>
 	<div class="drink_all">
 		<div class="drink_engine">
-			<el-carousel indicator-position="outside" height="500px">
+			<el-carousel indicator-position="outside" height="560px">
 				<el-carousel-item v-for="item in 4" :key="item">
 					<!--<h3>{{ item }}</h3>-->
 				</el-carousel-item>
@@ -14,22 +14,22 @@
 		</div>
 		<div class="drink_starTextAllImg">
 
-			<a href="#"><img src="../../static/img/a0fc5afaly1fpj4sqd07nj20c20azqbk.jpg" width="550px" height="360px" class="drink_starTextImg1" /></a>
+			<a href="#"><img src="../../static/img/39.jpg" width="550px" height="360px" class="drink_starTextImg1" /></a>
 
-			<a href="#"><img src="../../static/img/2.jpg" width="550px" height="360px" class="drink_starTextImg2" /></a>
+			<a href="#"><img src="../../static/img/22.1.jpg" width="550px" height="360px" class="drink_starTextImg2" /></a>
 
 		</div>
 		<div class="drink_startext">
 			<p>人海茫茫，总有一款让你心动</p><br />
 		</div>
 		<div class="drink_setAllImg">
-			<img src="../../static/img/3.jpg" width="260" height="280" class="drink_setImg1" />
+			<img src="../../static/img/drink1.png" width="260" height="280" class="drink_setImg1" />
 			<span class="drink_setHoverImg1">aaa<br/>aaaaaaaaaaaaaaaaaaaaa<br/>aaa</span>
-			<img src="../../static/img/6.jpg" width="260" height="280" class="drink_setImg2" />
+			<img src="../../static/img/drink2.png" width="260" height="280" class="drink_setImg2" />
 			<span class="drink_setHoverImg2">bbb<br/>bbbbbbbbbbbbbbbbbbb<br/>bbb</span>
-			<img src="../../static/img/7.jpg" width="260" height="280" class="drink_setImg3" />
+			<img src="../../static/img/drink3.png" width="260" height="280" class="drink_setImg3" />
 			<span class="drink_setHoverImg3">ccc<br/>cccccccccccc<br/>ccc</span>
-			<img src="../../static/img/5.jpg" width="260" height="280" class="drink_setImg4" />
+			<img src="../../static/img/drink4.png" width="260" height="280" class="drink_setImg4" />
 			<span class="drink_setHoverImg4">ddd<br/>ddddddddddddd<br/>ddd</span>
 		</div>
 		<br /><br /><br /><br /><br /><br />
@@ -68,20 +68,20 @@
 	}
 	
 	.drink_engine {
-		width: 1200px;
+		width: 1024px;
 		margin: 0 auto;
 	}
 	
 	.el-carousel__item:nth-of-type(1) {
-		background-image: url(../../static/img/frutist.jpg);
+		background-image: url(../../static/img/drink7.png);
 	}
 	
 	.el-carousel__item:nth-of-type(2) {
-		background-image: url(../../static/img/dessert.jpg);
+		background-image: url(../../static/img/drink8.png);
 	}
 	
 	.el-carousel__item:nth-of-type(3) {
-		background-image: url(../../static/img/bread.png);
+		background-image: url(../../static/img/drink9.png);
 	}
 	
 	.el-carousel__item:nth-of-type(4) {
@@ -221,8 +221,11 @@
 		font-family: "Hiragino Sans GB";
 		width: 520px;
 		height: 360px;
-		margin-left: 100px;
-		margin-top: 300px;
+		position: absolute;
+		left: 180px;
+		top:1700px;
+		/*margin-left: 100px;
+		margin-top: 300px;*/
 	}
 	
 	.drink_ProductText2 {
@@ -232,7 +235,10 @@
 		font-family: "Hiragino Sans GB";
 		width: 520px;
 		height: 360px;
-		margin-left: 765px;
-		margin-top: -390px;
+		position: absolute;
+		left: 840px;
+		top:1700px;
+		/*margin-left: 765px;
+		margin-top: -390px;*/
 	}
 </style>

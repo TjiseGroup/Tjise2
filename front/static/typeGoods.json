@@ -1,0 +1,11 @@
+[ [ { "goodsId": 1, "goodsImg": "http://localhost:5000/static/img/timg.jpg", "goodsName": "巧克夹心", "price": 18 }, 
+    { "goodsId": 3, "goodsImg": "http://localhost:5000/static/img/timg3.jpg", "goodsName": "奶茶夹心", "price": 15 },
+    { "goodsId": 1, "goodsImg": "http://localhost:5000/static/img/timg.jpg", "goodsName": "巧克夹心", "price": 18 }, 
+    { "goodsId": 3, "goodsImg": "http://localhost:5000/static/img/timg3.jpg", "goodsName": "奶茶夹心", "price": 15 } ], 
+    [ { "goodsId": 4, "goodsImg": "http://localhost:5000/static/img/timg2.jpg", "goodsName": "水果拼盘（小）", "price": 18 },
+         { "goodsId": 5, "goodsImg": "http://localhost:5000/static/img/timg2.jpg", "goodsName": "水果拼盘（中）", "price": 25 },
+          { "goodsId": 6, "goodsImg": "http://localhost:5000/static/img/timg2.jpg", "goodsName": "水果拼盘（大）", "price": 27 } ], 
+          [ { "goodsId": 7, "goodsImg": "http://localhost:5000/static/img/timg5.jpg", "goodsName": "百事可乐", "price": 10 }, 
+            { "goodsId": 8, "goodsImg": "http://localhost:5000/static/img/timg5.jpg", "goodsName": "汇源橙汁", "price": 18 } ],
+     [ { "goodsId": 9, "goodsImg": "http://localhost:5000/static/img/timg4.jpg", "goodsName": "奶香面包", "price": 25 },
+         { "goodsId": 10, "goodsImg": "http://localhost:5000/static/img/timg4.jpg", "goodsName": "拉丝面包", "price": 22 } ] ]
