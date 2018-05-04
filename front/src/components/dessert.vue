@@ -71,48 +71,6 @@
   </div>
 </template>
 
- <!--var images=new Array(7);  
-   var cur=0,begin;
-   for (i=0;i<7;i++) {
-    	images[i]=new Image();
-    	images[i].src="img/img"+i+".jpg";
-    }
-    function changes(){
-               if(cur>=7){
-               	cur=0;
-               }else{
-               	document.getElementById("imgs").src=images[cur].src;
-               	cur++;
-               }	
-}  
-window.onload=function(){
-	   begin=window.setInterval("changes()","1000");
-}
-window.onload=function () {
-	window.setInterval("changes()","1000");
-	document.getElementById("imgs_0").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/0.jpg";
-   });
-		document.getElementById("imgs_1").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/1.jpg";
-   });
-		document.getElementById("imgs_2").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/2.jpg";
-	});
-		document.getElementById("imgs_3").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/3.jpg";
-			});
-				document.getElementById("imgs_4").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/4.jpg";
-	});
-	document.getElementById("imgs_5").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/5.jpg";
-	});
-	document.getElementById("imgs_6").addEventListener("mouseover", function() {
-		document.getElementById("imgs").src = "img/6.jpg";
-
-	});
-}-->
 <script>
 export default {
   name: 'sweet',
